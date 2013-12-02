@@ -24,6 +24,7 @@ doc/
 .DS_Store
 .idea
 .secret
+bundler_stubs/
 
 # ignore stripe keys so it won't publish to public repository.
 /config/initializers/stripe.rb
