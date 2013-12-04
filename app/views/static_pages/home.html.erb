@@ -1,3 +1,11 @@
-<% provide(:title, 'Home') %>
-    <h1>California Vapor Reserve</h1>
-    <p>This is the basic Home page for California Vapor Reserver</p>
+<div class="center hero-unit">
+  <h1>California Vapor Reserve</h1>
+
+  <h2>
+    This is the basic Home page for California Vapor Reserve
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("cal_vape.jpg", alt: "California Vapor"), 'http://calvape.herokuapp.com/' %>
