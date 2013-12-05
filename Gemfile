@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-gem 'rails', '4.0.1'
+gem 'rails', '4.0.2'
 gem 'stripe', '1.8.8'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
   gem 'pg'
