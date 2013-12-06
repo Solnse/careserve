@@ -172,3 +172,18 @@ input {
   @extend .control_group;
   @extend .error;
 }
+
+/* Users index */
+
+.users {
+  list-style: auto;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      bortder-bottom: 1px solid $grayLighter;
+    }
+  }
+}
