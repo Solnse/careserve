@@ -22,7 +22,7 @@ describe "MicropostPages" do
       end
     end
 
-    describe " with valid information" do 
+    describe "with valid information" do 
       before { fill_in 'micropost_content', with: "Lorem ipsum" }
 
       it "creates a micropost" do 

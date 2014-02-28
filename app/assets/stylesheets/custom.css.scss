@@ -1,7 +1,6 @@
 @import "bootstrap";
 
 /* variables */
-$lightGray: #999;
 $grayMediumLight: #eaeaea;
 
 @mixin box_sizing {
@@ -30,10 +29,9 @@ textarea {
 
 .center {
   text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* typography */
@@ -46,16 +44,16 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
-  text-align: conter;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
-  text-align: conter;
+  text-align: center;
   font-weight: normal;
-  color: $lightGray;
+  color: $grayLight;
 }
 
 p {
@@ -87,7 +85,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: $lightGray;
+  color: $grayLight;
   a {
     color: #555;
     &:hover {

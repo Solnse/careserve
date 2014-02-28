@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "StaticPages" do
+describe "Static pages" do
 
   let(:base_title) {'California Vapor Reserve'}
 
@@ -22,7 +22,7 @@ describe "StaticPages" do
         visit root_path
       end
 
-      it "renders ther user's feed" do 
+      it "renders the user's feed" do 
         user.feed.each do |item|
           expect(page).to have_selector("li##{item.id}", text: item.content)
         end
